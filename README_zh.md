@@ -31,6 +31,7 @@
 </div>
 
 ## 🔥 最新动态
+- **[2026/04/08]** 🎆 - **[2026/04/08]** 🎉 我们在文档解析与文本图像机器翻译方向的两项研究成果被CVPR 2026 Main Conference正式接收！详见论文：[2603.23885](https://arxiv.org/abs/2603.23885)、[2603.23896](https://arxiv.org/abs/2603.23896)。
 - **[2026/01/13]** ⭐ 我们发布了稳定的官方[在线Demo](https://hunyuan.tencent.com/chat/HunyuanDefault?modelId=HY-OCR-1.0&mid=308&from=vision-zh)页面, 欢迎试用！
 - **[2025/11/28]** 🛠️ 我们修复了vLLM推理bug以及system prompt等超参配置问题。建议使用最新的vLLM安装步骤和[推理脚本](https://github.com/Tencent-Hunyuan/HunyuanOCR/blob/main/Hunyuan-OCR-master/Hunyuan-OCR-vllm/run_hy_ocr.py)进行效果测试。目前Transformers相比vLLM框架仍然存在一定的精度差异（正在努力修复中）。
 - **[2025/11/25]** 📝 推理代码和模型权重已开源。
@@ -390,6 +391,23 @@ cd Hunyuan-OCR-master/Hunyuan-OCR-hf && python run_hy_ocr.py
       journal={arXiv preprint arXiv:2511.19575},
       url={https://arxiv.org/abs/2511.19575}, 
 }
+
+@misc{li2026mmtitbench,
+      title={MMTIT-Bench: A Multilingual and Multi-Scenario Benchmark with Cognition-Perception-Reasoning Guided Text-Image Machine Translation},
+      author={Gengluo Li and Chengquan Zhang and Yupu Liang and Huawen Shen and Yaping Zhang and Pengyuan Lyu and Weinong Wang and Xingyu Wan and Gangyan Zeng and Han Hu and Can Ma and Yu Zhou},
+      year={2026},
+      journal={arXiv preprint arXiv:2603.23896},
+      url={https://arxiv.org/abs/2603.23896},
+}
+
+@misc{li2026towardsrealworlddocument,
+      title={Towards Real-World Document Parsing via Realistic Scene Synthesis and Document-Aware Training},
+      author={Gengluo Li and Pengyuan Lyu and Chengquan Zhang and Huawen Shen and Liang Wu and Xingyu Wan and Gangyan Zeng and Han Hu and Can Ma and Yu Zhou},
+      year={2026},
+      journal={arXiv preprint arXiv:2603.23885},
+      url={https://arxiv.org/abs/2603.23885},
+}
+
 ```
 
 ## 🙏 致谢
